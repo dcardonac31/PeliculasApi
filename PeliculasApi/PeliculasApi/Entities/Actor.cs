@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PeliculasApi.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PeliculasApi.Entities
 {
-    public class Actor
+    public class Actor: IId
     {
         public int Id { get; set; }
         [Required]
@@ -15,5 +16,6 @@ namespace PeliculasApi.Entities
         [Required]
         public DateTime FechaNacimiento { get; set; }
         public string Foto { get; set; }
+        public List<PeliculasActores> PeliculasActores { get; set; }
     }
 }

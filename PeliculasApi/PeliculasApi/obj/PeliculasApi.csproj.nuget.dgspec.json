@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitRepos\\Udemy\\PeliculasApi\\PeliculasApi\\PeliculasApi\\PeliculasApi.csproj": {}
+    "D:\\Udemy\\PeliculasApi\\PeliculasApi\\PeliculasApi\\PeliculasApi.csproj": {}
   },
   "projects": {
-    "C:\\GitRepos\\Udemy\\PeliculasApi\\PeliculasApi\\PeliculasApi\\PeliculasApi.csproj": {
+    "D:\\Udemy\\PeliculasApi\\PeliculasApi\\PeliculasApi\\PeliculasApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitRepos\\Udemy\\PeliculasApi\\PeliculasApi\\PeliculasApi\\PeliculasApi.csproj",
+        "projectUniqueName": "D:\\Udemy\\PeliculasApi\\PeliculasApi\\PeliculasApi\\PeliculasApi.csproj",
         "projectName": "PeliculasApi",
-        "projectPath": "C:\\GitRepos\\Udemy\\PeliculasApi\\PeliculasApi\\PeliculasApi\\PeliculasApi.csproj",
-        "packagesPath": "C:\\Users\\dcardona\\.nuget\\packages\\",
-        "outputPath": "C:\\GitRepos\\Udemy\\PeliculasApi\\PeliculasApi\\PeliculasApi\\obj\\",
+        "projectPath": "D:\\Udemy\\PeliculasApi\\PeliculasApi\\PeliculasApi\\PeliculasApi.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "D:\\Udemy\\PeliculasApi\\PeliculasApi\\PeliculasApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dcardona\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,6 +65,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.10, )"
             }
           },
           "imports": [
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }
